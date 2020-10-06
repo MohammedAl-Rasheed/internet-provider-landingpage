@@ -1,0 +1,41 @@
+.audio {
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    z-index: 100;
+    -webkit-box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.51);
+}
+
+.fa-user {
+    font-size: 40px;
+    color: #111;
+    align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+audio {
+    width: 200px;
+    display: block;
+    margin: 20px;
+}
+
+audio:nth-child(2) {
+    width: 250px;
+}
+
+audio:nth-child(3) {
+    width: 350px;
+}
+
+.audio1 {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(90%);
+    position: relative;
+    bottom: 70px;
+    left: 60px;
+}
